@@ -1,164 +1,45 @@
 # 0x00. Advanced HTML
 
-## Description:bulb:
-How to use HTML tags to structure a web page
-* Which guidelines to follow for HTML
-* How to create the skeleton of an HTML5 page
-* How to use semantic HTML tags to structure a web page
-* Which use cases to use `div` vs `span`
-* The semantic value's of `header`, `main`, `footer`, `article`, `nav`, `section`, `aside`
-* How to use headings (and why it's important to follow the hierarchical order)
-* How to make lists in HTML
-* The differences between medias (SVG, GIF, PNG, JPG)
-* How to structure data in a table
-* How to integrate a video in a webpage
-* How to integrate an audio file in a webpage
-* How to embed external content
-* How to correctly structure an HTML page
-
----
-
-## Resources:books:
-Read or watch:
-* [HTML - elements of a web page] (https://intranet.hbtn.io/concepts/139)
-* [HTML 5.2] (https://intranet.hbtn.io/rltoken/0qrWxRjFnohd-DMZwIakuA)
-* [HTML: HyperText Markup Language | MDN] (https://intranet.hbtn.io/rltoken/M-CcOLx8YG8znnc4qxSscg)
-* [HTML Reference - A free guide to all HTML elements and attributes] (https://intranet.hbtn.io/rltoken/5O-P-PsGJ5tXOOmKZwTNvg)
-* [Can I use... Support tables for HTML5, CSS3, etc] (https://intranet.hbtn.io/rltoken/qonyw8QCI9Bf8jjiib9tug)
-* [HTML Cheat Sheet - WebsiteSetup] (https://intranet.hbtn.io/rltoken/IL-IEL5JBB6FuDME5oZNRQ)
-
----
-
-### [0. Create your first webpage](./0-index.html)
-* Create your first HTML file:
-    * Add doctype
-    * add language tag and direction tag
-
-### [1. Structure your webpage](./1-index.html)
-* Create the head and body tags
-
-### [2. The head - meta charset, viewport, title, description, favicons](./2-index.html)
-* Add meta tags
-    * charset, name, description, content
-
-### [3. Simple header, main, footer](./3-index.html)
-* Create the header, main, and footer
-
-### [4. Aside](./article.html)
-* Create the aside
-
-### [5. Section](./5-index.html)
-* Create the following sections:
-    * Hero, services, works, about, latest news, testimonials, and contact
-
-### [6. Work, News, Testimonial articles](./6-index.html)
-* Create articles for sections:
-    * works, latest news, and testimonials
-
-### [7. Navigation](./7-index.html)
-* Create the navigation
-    * Create the nav tag
-
-### [8. Level 1 headings](./8-index.html)
-* Creata level 1 heading
-
-### [9. Level 2 headings](./9-index.html)
-* Create level 2 headings
-
-### [10. Level 3 headings](./10-index.html)
-* Create level 3 headings
-
-### [11. styleguide](./11-styleguide.html)
-* Create a new section inside the main
-
-### [12. Paragraphs](./12-index.html)
-* Add paragraphs
-
-### [13. styleguide paragraphs](./13-styleguide.html)
-* Create a new section in main
-
-### [14. Span](./14-index.html)
-* Create a span before the nav
-
-### [15. Div](./15-index.html)
-* Wrap the contents of the header and all section elements with a div
-
-### [16. Structure your sections](./16-index.html)
-* Create a header that wraps the headers level 2 and the paragraphs
-
-### [17. Comments](./17-index.html)
-* Break sections with comments
-
-### [18. link your logo](./18-index.html)
-* Wrap the span with a link
-
-### [19. Create new pages](./about.html)
-* Change the title of the different pages
-
-### [20. Add links](./20-index.html)
-* Add links in the navbar
-
-### [21. Add social media links](./21-index.html)
-* Add social media links to the footer
-
-### [22. "Button" links](./22-index.html)
-* Create buttons links
-
-### [23. Services, Works, Latest news links](./23-index.html)
-* Create new links
-
-### [24. List the links](./24-index.html)
-* List the links
-
-### [25. Secondary navigation menu](./25-index.html)
-* Create a new secondary navigation menu
-
-### [26. Examples of lists for the styleguide](./26-styleguide.html)
-* Examples of unnordered and ordered lists
-
-### [27. Separate content](./27-index.html)
-* Add a horizontal line separating the content
-
-### [28. Horizontal rule example](./28-styleguide.html)
-* Add a horizontal line example
-
-### [29. Client quotes](./29-index.html)
-* Add quotes
-
-### [30. Examples of quotes](./30-styleguide.html)
-* Create example of using Blockquotes
-
-### [31. Address and latest news authors](./31-index.html)
-* Add address and latest news authors
-
-### [32. Typography section - using the correct tags](./32-styleguide.html)
-* Create a new section
-
-### [33. Table](./33-styleguide.html)
-* Create a new table
-
-### [34. Details](./34-styleguide.html)
-* Create a new section
-
-### [35. Replace text logo with image logo](./35-index.html)
-* Replace text logo with image logo
-
-### [36. Add images to your sections](./36-index.html)
-* Add images to sections
-
-### [37. Social icons](./index.html)
-* Add social icons
-
-### [38. Add a video player in the styleguide](./38-styleguide.html)
-* Add a video player
-
-### [39. Add an audio player in the styleguide](./39-styleguide.html)
-* Add an audio player
-
-### [40. Add a iframe example in the styleguide](./styleguide.html)
-* Add an iframe example
-
----
-
-## Author
-* **Joseph Mahiuha** - [Mahiuha](https://github.com/Mahiuha)
+| TASK                                            | FILE                                                                                         | DESCRIPTION                                                                                            |
+|-------------------------------------------------|----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| 0. Create your first webpage                    | [0-index.html](0-index.html)                                                                 | created html file `0-index.html` with:<br> - doctype<br> - `html` tag with lang and dir attributes<br> |
+| 1. Structure your webpage                       | [1-index.html](1-index.html)                                                                 | created html file `1-index.html` with:<br> - `head` tag<br> - `title` tag<br> - `body` tag<br>         |
+| 2. The head - meta                              | [2-index.html](2-index.html)                                                                 | created html file `2-index.html` with:<br> - `meta` tag<br> - `title` tag<br>                          |
+| 3. Simple header, main, footer                  | [3-index.html](3-index.html)                                                                 | created html file `3-index.html` with:<br> - `header` tag<br> - `main` tag<br> - `footer` tag<br>      |
+| 4. Aside                                        | [article.html](article.html)                                                                 | created html file `article.html` with:<br> - `article` tag<br> - `h2` tag<br> - `p` tag<br>            |
+| 5. Section & Nav                                | [5-index.html](5-index.html)                                                                 | created html file `5-index.html` with:<br> - `nav` tag<br> - `section` tag<br>                         |
+| 6. Work, News, Testimonial articles             | [6-index.html](6-index.html)                                                                 | created html file `6-index.html` with:<br> - `article` tag<br> - `h2` tag<br> - `p` tag<br>            |
+| 7. Navigation                                   | [7-index.html](7-index.html)                                                                 | created html file `7-index.html` with:<br> - `nav` tag<br> - `ul` tag<br> - `li` tag<br> - `a` tag<br> |
+| 8. Level 1 headings                             | [8-index.html](8-index.html)                                                                 | created html file `8-index.html` with:<br> - `h1` tag<br> - `h2` tag<br> - `h3` tag<br>                |
+| 9. Level 2 headings                             | [9-index.html](9-index.html)                                                                 | created html file `9-index.html` with:<br> - `h4` tag<br> - `h5` tag<br> - `h6` tag<br>                |
+| 10. Level 3 headings                            | [10-index.html](10-index.html)                                                               | created html file `10-index.html` with:<br> - `h4` tag<br> - `h5` tag<br> - `h6` tag<br>               |
+| 11. styleguide                                  | [11-styleguide.html](11-styleguide.html)                                                     | created html file `11-styleguide.html` with:<br> - `h1` tag<br> - `h2` tag<br> - `h3` tag<br>          |
+| 12. Paragraphs                                  | [12-index.html](12-index.html)                                                               |                                                                                                        |
+| 13. styleguide paragraphs                       | [13-styleguide.html](13-styleguide.html)                                                     |                                                                                                        |
+| 14. Span                                        | [14-index.html](14-index.html)                                                               |                                                                                                        |
+| 15. Div                                         | [15-index.html](15-index.html)                                                               |                                                                                                        |
+| 16. Structure your sections                     | [16-index.html](16-index.html)                                                               |                                                                                                        |
+| 17. Comments                                    | [17-index.html](17-index.html)                                                               |                                                                                                        |
+| 18. link your logo                              | [18-index.html](18-index.html)                                                               |                                                                                                        |
+| 19. Create new pages                            | [about.html](about.html), [latest_news.html](latest_news.html), [contact.html](contact.html) |                                                                                                        |
+| 20. Add links                                   | [20-index.html](20-index.html)                                                               |                                                                                                        |
+| 21. Add social media links                      | [21-index.html](21-index.html)                                                               |                                                                                                        |
+| 22. "Button" links                              | [22-index.html](22-index.html)                                                               |                                                                                                        |
+| 23. Services, Works, Latest news links          | [23-index.html](23-index.html)                                                               |                                                                                                        |
+| 24. List the links                              | [24-index.html](24-index.html)                                                               |                                                                                                        |
+| 25. Secondary navigation menu                   | [25-index.html](25-index.html)                                                               |                                                                                                        |
+| 26. Examples of lists for the styleguide        | [26-styleguide.html](26-styleguide.html)                                                     |                                                                                                        |
+| 27. Separate content                            | [27-index.html](27-index.html)                                                               |                                                                                                        |
+| 28. Horizontal rule                             | [28-index.html](28-index.html)                                                               |                                                                                                        |
+| 29. Client quotes                               | [29-index.html](29-index.html)                                                               |                                                                                                        |
+| 30. Examples of quotes                          | [30-styleguide.html](30-styleguide.html)                                                     |                                                                                                        |
+| 31. Address and latest news authors             | [31-index.html](31-index.html)                                                               |                                                                                                        |
+| 32. Typography section - using the correct tags | [32-styleguide.html](32-styleguide.html)                                                     |                                                                                                        |
+| 33. Table                                       | [33-styleguide.html](33-styleguide.html)                                                     |                                                                                                        |
+| 34. Details                                     | [34-styleguide.html](34-styleguide.html)                                                     |                                                                                                        |
+| 35. Replace text logo with image logo           | [35-index.html](35-index.html)                                                               |                                                                                                        |
+| 36. Add images to your sections                 | [36-index.html](36-index.html)                                                               |                                                                                                        |
+| 37. Social icons                                | [index.html](index.html)                                                                     |                                                                                                        |
+| 38. Add a video player in the styleguide        | [38-styleguide.html](38-styleguide.html)                                                     |                                                                                                        |
+| 39. Add an audio player in the styleguide       | [39-styleguide.html](39-styleguide.html)                                                     |                                                                                                        |
+| 40. Add a iframe example in the styleguide                                                | [styleguide.html](styleguide.html)                                                                                             |                                                                                                        |
